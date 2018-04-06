@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -13,6 +20,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 10px;
 }
 
 .logo p {
@@ -20,10 +28,36 @@ header {
   color: MediumAquamarine;
 }
 
-nav {
-}
-
 span {
   text-decoration: underline;
   margin: 20px;
+}
+
+.large {
+  display: inline-flex;
+  flex-direction: column;
+  width: 630px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.medium {
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+  justify-content: center;
+}
+
+.small {
+  display: inline-flex;
+  flex-direction: column;
+  width: 240px;
+  justify-content: flex-end;
+}
+
+#image {
+  background-image: url(../images/img-story-main-drinks.png);
+  height: 300px;
+  color: white;
+  align-items: center;
 }
