@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid black;
 }
 
 header {
@@ -32,32 +31,78 @@ span {
   text-decoration: underline;
   margin: 20px;
 }
+  .column {
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 40px;
+}
 
 .large {
   display: inline-flex;
   flex-direction: column;
   width: 630px;
-  justify-content: flex-start;
-  align-items: flex-start;
+  padding-bottom: 50px;
 }
 
 .medium {
   display: inline-flex;
   flex-direction: column;
+  height: 100%;
   width: 300px;
-  justify-content: center;
+  margin: 20px 40px 0 40px;
 }
 
 .small {
   display: inline-flex;
   flex-direction: column;
   width: 240px;
-  justify-content: flex-end;
 }
 
 #image {
   background-image: url(../images/img-story-main-drinks.png);
   height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
   color: white;
-  align-items: center;
+}
+
+#earth {
+  background-image: url(../images/img-story-1.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  width: 300px;
+}
+
+#cat {
+  background-image: url(../images/img-story-1-cat.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#camera {
+  background-image: url(../images/img-story-3-cameraman.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  width: 300px;
+}
+
+p {
+  display: inline;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  margin-top: 20px;
 }
