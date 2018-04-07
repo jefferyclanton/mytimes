@@ -75,6 +75,7 @@ span {
   color: white;
   height: 300px;
   width: 300px;
+  margin-top: 65px;
 }
 
 #cat {
@@ -97,6 +98,7 @@ span {
   color: white;
   height: 300px;
   width: 300px;
+  margin-top: 65px;
 }
 
 p {
@@ -104,4 +106,10 @@ p {
   font-size: 17px;
   color: black;
   margin-top: 20px;
+}
+
+.rows {
+  display: inline-flex;
+  width: 630px;
+  margin-top: 50px;
 }
