@@ -130,3 +130,30 @@ p {
   border-bottom: 1px solid black;
   padding: 10px 20px;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 325px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: MediumAquamarine;
+ margin: auto;
+ font-family: Verdana;
+}
+
+footer a {
+  font-size: 12px;
+}
+
+#copyright {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.copylogo p {
+  font-size: 12px;
+}
