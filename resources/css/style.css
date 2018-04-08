@@ -27,7 +27,7 @@ header {
   color: MediumAquamarine;
 }
 
-span {
+.news {
   text-decoration: underline;
   margin: 20px;
 }
@@ -112,4 +112,21 @@ p {
   display: inline-flex;
   width: 630px;
   margin-top: 50px;
+}
+ #right-title {
+   font-size: 16px;
+   text-align: center;
+ }
+
+.small p {
+  margin-bottom: 50px;
+}
+
+.headlines {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  padding: 10px 20px;
 }
